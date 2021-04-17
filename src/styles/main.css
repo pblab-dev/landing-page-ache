@@ -1,0 +1,263 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;  
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: row;
+  justify-content: center;
+}
+.main .main-sub {
+  max-width: 997px;
+}
+
+.header {
+  max-height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+}
+.header-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header-menu {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1vw;
+  color: #0072ad;
+  font-weight: 700;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #0072ad;
+}
+
+.header-menu-item {
+  margin-left: 2vw;
+  margin-right: 2px;
+}
+
+.logo-ini-cad {
+  /* min-height: 1vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 6%;
+  height: 20%;
+}
+.data-event-title {
+  color: #0072ad;
+  font-weight: 700;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-size: 1.2vw;
+}
+
+.main-body {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-start;
+  /* margin-bottom: 9%; */
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 35%;
+  padding: 5px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  align-items: flex-end;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 0.9vw;
+  color: #0072ad;
+  width: 25%;
+}
+
+.input-label-first-row {
+  margin-right: 4%;
+}
+
+.input-wrapper {
+  height: 24px;
+  border-radius: 15px;
+  border: 2px solid #0072ad;
+  outline: none;
+  width: 60%;
+  margin-left: 1%;
+}
+
+.form-row input {
+  width: 92%;
+  border: 0;
+  outline: none;
+}
+.input-wrapper select {
+  width: 92%;
+  border: 0;
+  outline: none;
+}
+
+.term-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.form-row-term {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start;
+  justify-content: flex-end; */
+  margin-top: 1%;
+  margin-left: 25%;
+  width: auto;
+  height: auto;
+}
+.formik-message-error {
+  color: red;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.formik-message-error-term {
+  color: red;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-left: 30%;
+}
+
+.term-input-label {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 13px;
+  color: #0072ad;
+  width: 2vw;
+  height: auto;
+  align-items: center;
+}
+.term-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  font-size: 13px;
+  width: auto;
+  color: #0072ad;
+}
+
+/* .term-input-wrapper span {
+  font-weight: 700;
+} */
+
+.button-wrapper {
+  font-size: 16px;
+  width: 60%;
+  color: #0072ad;
+  margin-top: 2%;
+  margin-left: 23%;
+}
+
+.button-wrapper button {
+  outline: none;
+  border-radius: 15px;
+  background-color: #0072ad;
+  font-size: 1.2vw;
+  border: 0;
+  width: 60%;
+  color: white;
+  height: 5vh;
+  font-weight: 800;
+}
+
+.button-wrapper button:hover {
+  cursor: pointer;
+}
+
+.main-footer {
+  min-height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1800px) {
+  .input-wrapper {
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid #0072ad;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .logo-ini-cad {
+    justify-content: center;
+    height: 20%;
+  }
+  .data-event-title {
+    font-size: 14px;
+    margin-left: 20%;
+  }
+  .form-wrapper {
+    height: auto;
+    width: 95%;
+    padding: 5px;
+  }
+  .form-row {
+    margin-top: 4%;
+  }
+  .input-label {
+    font-size: 3vw;
+    width: 30%;
+  }
+
+  .term-input-wrapper {
+    font-size: 12px;
+  }
+
+  .button-wrapper button {
+    font-size: 4vw;
+    border: 0;
+    width: 80%;
+    color: white;
+    height: 35px;
+    font-weight: 800;
+  }
+}
+

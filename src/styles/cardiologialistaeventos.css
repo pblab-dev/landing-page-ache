@@ -1,0 +1,158 @@
+.main-ini {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  justify-content: space-between;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+
+.cardio-main-body-wrapper-pos {
+  display: flex;
+  /* height: auto; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* flex: 1; */
+  height: 90%;
+
+}
+
+.main-body-content-pos {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  height: 80%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  /* font-size: 2vw; */
+  color: #0072ad;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-body-content-pos p {
+  margin: 15px; 
+  font-size: 2vw; 
+}
+
+.logo-sandoz-ini {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 23%;
+  /* background-color: #0072ad; */
+}
+
+.cardio-title-above-button{
+  margin-top: 2%; 
+  font-size: 1.4vw; 
+  font-weight:100;
+}
+.cardio-title-li2-above-button{
+  font-size: 1.4vw; 
+  font-weight:100;
+}
+
+.cardio-button-wrapper-start {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 8%; 
+  align-items: center;
+  margin-top: 1%;
+}
+.cardio-button-wrapper-start button {
+  outline: none;
+  border-radius: 15px;
+  background-color: #0072ad;
+  font-size: 90px;
+  border: 0;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 800;
+  height: 100%;
+  width: 40%;
+}
+
+.cardio-button-wrapper-start button:hover {
+  cursor: pointer;
+}
+.main-footer-ini {
+  background: rgb(0, 57, 78);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 57, 78, 1) 1%,
+    rgba(0, 101, 146, 1) 100%
+  );
+  min-height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main-footer-ini img {
+  width: 10%;
+  height: 30%;
+  margin-right: 23%;
+}
+
+
+@media (min-width: 1400px) {
+  .cardio-title-above-button{
+    margin-top: 3%; 
+    font-size: 1.7vw; 
+    font-weight: 200;
+  }
+  .cardio-title-li2-above-button{
+    font-size: 1.7vw; 
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-ini {
+    /* background-image:url("");  */
+    background-repeat: no-repeat; 
+    background-position:  top;
+    background-size: cover;
+  
+  }
+
+  .main-footer-ini img {
+    width: 32%;
+    height: 30%;
+    margin-right: 23%;
+  }
+
+  .logo-sandoz-ini {
+    width: 20%;
+    height: 13%;
+  }
+  .main-body-content-pos p {
+    font-size: 5vw; 
+  }
+  .cardio-title-above-button{
+    margin-top: 3%; 
+    font-size: 4vw; 
+  }
+  .cardio-title-li2-above-button{
+    font-size: 4vw; 
+  }
+  .cardio-button-wrapper-start {
+    width: 100%;
+    height: 8%; 
+    margin-top: 3%;
+  }
+  .cardio-button-wrapper-start button{
+    font-size: 4vw;
+  }
+  
+
+}
